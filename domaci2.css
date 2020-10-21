@@ -1,0 +1,20 @@
+table
+{
+    border-collapse: collapse;
+    border-color:rgb(13, 161, 13);
+}
+#crveno-zeleno
+{
+    color: red;
+    background-color: rgb(156, 231, 81);
+}
+
+.nzm
+{
+    border: solid green 5px;
+    padding: 50px 300PX 50px 0px;
+    width: 500px;
+    margin: 0px auto;
+    text-align: RIGHT;
+   line-height: 50px;
+}
