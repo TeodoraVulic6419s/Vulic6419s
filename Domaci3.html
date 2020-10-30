@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vulkan</title>
+    <link rel="shortcut icon" href="vulkanjpg.jpg" type="image/x-icon">
+    <style>
+        *{  
+            padding: 0;
+            margin: 0;
+            list-style-type: none;
+            text-decoration: none;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        nav{
+            background-color: rgba(255, 0, 0, 0.726);
+            width: 100%;
+            height: 80px;
+        }
+        nav img{
+            height: 80px;
+            width: 220px;
+        }
+        nav ul{
+            float: right;
+        }
+        nav ul li{
+            display: inline;
+            line-height: 80px;
+            margin: 0 20px;
+        }
+        nav ul li a{
+            color: rgb(255, 235, 221);
+            font-size: 15px;
+            font-weight: bold;
+            text-transform: uppercase;
+            padding: 20px 15px;
+            border-radius: 50%;
+        }
+        li a:hover{
+            background-color: seashell;
+            color: rgba(255, 0, 0, 0.808);
+            transition: all 1s;
+        }
+        div{
+            width: 60%;
+            margin: 0 auto;
+        }
+      .centar{
+            display: inline-block;
+            width: 60%;
+            
+        }
+      .knjiga1
+      {
+        width: 250px;
+        margin-left: 5%;
+        display: inline-block;
+        vertical-align: top;
+        padding-top: 40px;
+        padding-bottom: 10px;
+        text-align: center;
+      }
+      
+      .knjiga2
+      {
+        width: 250px;
+        display: inline-block;
+        vertical-align: top;
+        padding-top: 40px;
+        padding-bottom: 10px;
+        text-align: center;
+
+      }
+      .knjiga3
+      {
+        width: 250px;
+        display: inline-block;
+        vertical-align: top;
+        padding-top: 40px;
+        padding-bottom: 10px;
+        text-align: center;
+      }
+      .knjiga4
+      {
+        width: 250px;
+        margin-left: 5%;
+        display: inline-block;
+        vertical-align: top;
+        padding-top: 40px;
+        padding-bottom: 10px;
+        text-align: center;  
+      }
+      .knjiga5
+      {
+        padding-top: 40px;
+        width: 250px;
+        display: inline-block;
+        vertical-align: top;
+        padding-bottom: 10px;
+        text-align: center;
+      }
+      .knjiga6
+      {
+        padding-top: 40px;
+        width: 250px;
+        display: inline-block;
+        vertical-align: top;
+        border-image-width: 2px;
+        padding-bottom: 10px;
+        text-align: center;
+      }
+      #forma
+      {
+        float: right;
+        width: 20%;
+        display: inline-block;
+        line-height: 30px;
+        font-size: 20px;
+        text-align: center;
+        margin-top: 10%;
+        text-align: center;
+        
+      }
+      .nazivKnjige{
+         
+          font-size: medium;
+          font-family: Verdana, Geneva, Tahoma, sans-serif;
+          color: brown;
+          line-height: 3px;
+      }
+      .dugme
+      {
+          background-color: rgb(179, 206, 218);
+          width: 100px;
+          height: 30px;
+      }
+      .velikidiv
+      {
+          width: 100%;
+          height: 100%;
+          background-image: url(wood2.jpg);
+      }
+      .vesti
+      {
+          background-color: rgba(235, 225, 212, 0.76);
+          display: inline-block;
+          width: 20%;
+          float: left;
+          margin-top: 40px;
+          text-align: center;
+      }
+      .dugme2
+      {
+          background-color: rgba(255, 0, 0, 0.575);
+          width: 130px;
+          height: 40px;
+          border: solid 2px rgb(83, 0, 0);
+          font-family: font: 1em sans-serif;;
+          font-size: medium;
+          text-align: center; 
+      }
+      .nz
+      {
+          padding: 10px;  
+      }
+      .kolicina
+      {
+        text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+      }
+      .footer
+      {
+          background-color: rgba(128, 6, 6, 0.705);
+          color: rgb(255, 181, 121);
+          border: rgb(95, 9, 9);
+          width: 91%;
+          height: 100px;
+          padding: 50px;
+          text-align: center;
+          }
+        .tt
+        {
+            padding: 10px;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <img src="vulkanlogo.jpg" alt="slika">
+
+        <ul>
+            <li><a href="#">Pocetna</a></li>
+            <li><a href="#">Popusti</a></li>
+            <li><a href="#">Lokacije</a></li>
+            <li><a href="#">Uskoro</a></li>
+            <li><a href="#">O nama</a></li>
+
+        </ul>
+    </nav>
+    <div class="velikidiv">
+    <div class="centar">
+        
+        <div class="knjiga1">
+            <img src="slika1dom3.jpg" alt="knjiga1" width="160px" height="230px">
+
+            <p class="nz"> <h4 class="nazivKnjige">Skriveni zivot zivotinja</h4>
+           
+                <p class="tt"> 1.599,00 <span>RSD</span></p>
+                
+                <p class="kolicina" >Kolicina: <input type="number" name="Kolicina" min="1" value="1"  style="width: 30px;" ></p>
+                
+                <button class="dugme2">Dodaj u korpu</button> </p>
+        </div>
+        <div class="knjiga2">
+            <img src="slika2dom3.jpg" alt="knjiga2" width="160px" height="230px"> <br>
+           <p class="nz"> <h4 class="nazivKnjige">Dobro dosli u svemir</h4>
+           
+           <p class="tt"> 1.399,00 <span>RSD</span></p>
+           
+           <p class="kolicina" >Kolicina: <input type="number" name="Kolicina" min="1" value="1"  style="width: 30px;" ></p>
+           
+           <button class="dugme2">Dodaj u korpu</button> </p>
+        </div>
+        <div class="knjiga3">
+            <img src="slika3dom3.jpg" alt="knjiga3" width="160px" height="230px">
+            <p class="nz"> <h4 class="nazivKnjige">Dinosauri</h4>
+           
+                <p class="tt" > 1.799,00 <span>RSD</span></p>
+                
+                <p class="kolicina" >Kolicina: <input type="number" name="Kolicina" min="1" value="1"  style="width: 30px;" ></p>
+                
+                <button class="dugme2">Dodaj u korpu</button> </p>
+        </div> <br>
+        <div class="knjiga4">
+            <img src="slika4dom3.jpg" alt="knjiga4" width="160px" height="230px">
+            <p class="nz"> <h4 class="nazivKnjige">Zasto spavamo</h4>
+           
+                <p class="tt"> 1.299,00 <span>RSD</span></p>
+                
+                <p class="kolicina" >Kolicina: <input type="number" name="Kolicina" min="1" value="1"  style="width: 30px;" ></p>
+                
+                <button class="dugme2">Dodaj u korpu</button> </p>
+        </div>
+        <div class="knjiga5">
+            <img src="slika5dom3.jpg" alt="knjiga5" width="160px" height="230px">
+            <p class="nz"> <h4 class="nazivKnjige">Covek, zivotinja i masina</h4>
+           
+                <p class="tt"> 999,00 <span>RSD</span></p>
+                
+                <p class="kolicina" >Kolicina: <input type="number" name="Kolicina" min="1" value="1"  style="width: 30px;" ></p>
+                
+                <button class="dugme2">Dodaj u korpu</button> </p>
+        </div>
+        <div class="knjiga6">
+            <img src="slika6dom3.jpg" alt="knjiga6" width="160px" height="230px">
+            <p class="nz"> <h4 class="nazivKnjige">Pisma astro fizicara</h4>
+           
+                <p class="tt"> 1.499,00 <span>RSD</span></p>
+                
+                <p class="kolicina" >Kolicina: <input type="number" name="Kolicina" min="1" value="1"  style="width: 30px;" ></p>
+                
+                <button class="dugme2">Dodaj u korpu</button> </p>
+        </div>
+       
+    </div>
+    <div id="forma">
+        <h4>Registraciona forma</h4>
+        <form action="#" method="POST">
+            <label for="male">M</label>
+            <input type="radio" id="musko" name="gender" value="male"> 
+            <label for="female">Z</label>
+            <input type="radio" id="zensko" name="gender" value="female"><br>
+           <label for="text">Ime</label>
+           <input type="text"><br>
+           <label for="text">Prezime</label>
+           <input type="text"><br>
+           <label for="text">Email</label>
+           <input type="email"><br>
+           <label for="password">Password</label>
+           <input type="password"> <br>
+           <label for="city">Izaberi grad:</label>
+            <select name="grad" id="Gradovi">
+            <option value="BG">Beograd</option>
+            <option value="NS">Novi Sad</option>
+            <option value="NI">Nis</option>
+            <option value="Kragujevac">Kragujevac</option>
+            <option value="Subotica">Subotica</option>
+            <option value="Sabac">Sabac</option>
+            <option value="Kraljevo">Kraljevo</option>
+            <option value="Jagodina">Jagodina</option>
+            <option value="Negotin">Negotin</option>
+            <option value="Vranje">Vranje</option>
+            <option value="Leskovac">Leskovac</option>
+            <option value="Uzice">Uzice</option>
+            <option value="Loznica">Loznica</option>
+            <option value="Cacak">Cacak</option>
+            </select>
+           <input type="submit" value="Potvrdi" class="dugme">
+        </form>
+    </div>
+    <div class="vesti">
+        <fieldset>
+            <legend>Vesti</legend>
+        <h4>Sajam knjiga od 7.10. do 17.10.</h4>
+        <img style="border-radius: 5%;" src="sajam.jpg" alt="sajam" width="190px" height="140px">
+        <p>Sajam knjiga odrzace se od 7.10. do 17.10. Vulkanove knjige mozete pronaci u hali 4.</p>
+        <br>
+        <h4>Specijalni popusti</h4>
+        <img style="border-radius: 5%;" src="popusti.jpg" alt="popusti" width="190px" height="140px">  
+        <p>Neverovatni popusti u knjizarama vuklan na ceo asortiman.</p>
+        <br>
+        <h4>Otvaranje vulkana na jos jednoj lokaciji</h4>
+        <img style="border-radius: 5%" src="otvaranje.jpg" altotvaranje width="190px" height="140px">
+        <p>Otvaranje nove vuklanove knjizare u Knez Mihailovoj 18.</p>
+    </fieldset>
+    </div>
+    <div class="footer">
+        &#9819; Teodora Vulic s64/19 
+        <br>
+        &#9742; 064/42-868-55 
+        <br>
+        &#9993; tvulic6419s@raf.rs 
+        </div>
+    </div>
+</div>
+</body>
+</html>
